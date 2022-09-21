@@ -11,6 +11,7 @@
 header {
   background: url(Images/Projects/Easy_Bank/bg-intro-mobile.svg) no-repeat;
   background-position: top right;
+  margin-bottom: 30px;
 }
 .navigation {
   align-items: center;
@@ -145,6 +146,7 @@ footer {
   header {
     background: url(Images/Projects/Easy_Bank/bg-intro-desktop.svg) no-repeat;
     background-position: top -180px right -450px;
+    margin-bottom: 0;
   }
   .navigation{
     padding-left: 100px;
