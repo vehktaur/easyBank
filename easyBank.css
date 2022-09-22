@@ -26,7 +26,7 @@ header {
 nav {
   width: 100%;
 }
-.transparent {
+.nav-ul {
   align-items: center;
   background-color: white;
   border-radius: 8px;
@@ -44,15 +44,15 @@ nav {
 .unhide {
   display: block;
 }
-.transparent li,
-.transparent li a {
+.nav-ul li,
+.nav-ul li a {
   color: black;
   display: block;
   text-decoration: none;
   text-align: center;
   width: 100%;
 }
-.transparent li a {
+.nav-ul li a {
   padding: 5px 0;
 }
 .toggle {
@@ -98,7 +98,7 @@ ul {
 .articles a:hover,
 .footer-list li a:hover,
 .links svg:hover,
-.transparent li a:hover {
+.nav-ul li a:hover {
   color: rgb(47, 206, 124);
   fill: rgb(47, 206, 124);
 }
@@ -155,7 +155,7 @@ footer {
   nav {
     width: 50%;
   }
-  .transparent {
+  .nav-ul {
     display: flex;
     justify-content: space-evenly;
     left: 0;
@@ -166,19 +166,19 @@ footer {
     position: initial;
     width: 80%;
   }
-  .transparent li {
+  .nav-ul li {
     width: 50px;
   }
-  .transparent li a {
+  .nav-ul li a {
     color: rgb(148, 147, 153);
     display: inline-block;
     position: relative;
     width: 100%;
   }
-  .transparent li a:hover {
+  .nav-ul li a:hover {
     color: black;
   }
-  .transparent li a::after {
+  .nav-ul li a::after {
     background: linear-gradient(to right, rgb(49, 206, 115), rgb(44, 186, 198));
     content: "";
     display: inline-block;
@@ -190,7 +190,7 @@ footer {
     transition: 0.5s;
     width: 0;
   }
-  .transparent li a:hover::after {
+  .nav-ul li a:hover::after {
     opacity: 1;
     width: 110%;
   }
