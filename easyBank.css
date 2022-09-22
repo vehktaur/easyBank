@@ -102,6 +102,9 @@ ul {
   color: rgb(47, 206, 124);
   fill: rgb(47, 206, 124);
 }
+.articles img.resized {
+  width: 90%;
+}
 
 .div-in-art {
   padding: 0 20px;
@@ -231,7 +234,7 @@ footer {
     padding: 0 20px;
   }
   .articles img.resized {
-    height: 205px;
+    max-height: 45%;
     width: 100%;
   }
   .text-md-end {
