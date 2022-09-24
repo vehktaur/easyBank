@@ -84,12 +84,9 @@ nav {
 }
 
 .nav-ul {
-  align-items: center;
   background-color: white;
   border-radius: 8px;
   display: none;
-  flex-flow: row wrap;
-  justify-content: center;
   left: 50%;
   margin-top: 15px;
   padding: 20px 0;
