@@ -301,7 +301,7 @@ footer {
 
   .nav-ul li a:hover::after {
     opacity: 1;
-    width: 110%;
+    width: 100%;
   }
 
   .toggle {
