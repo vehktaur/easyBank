@@ -290,11 +290,11 @@ footer {
     background: linear-gradient(to right, rgb(49, 206, 115), rgb(44, 186, 198));
     content: "";
     display: inline-block;
-    height: 7px;
+    height: 4px;
     left: 0;
     opacity: 0;
     position: absolute;
-    top: 130%;
+    top: 110%;
     transition: 0.5s;
     width: 0;
   }
