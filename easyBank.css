@@ -176,10 +176,7 @@ ul {
   padding: 0 20px;
 }
 
-.div-in-art p,
-.div-in-art h5,
-.div-in-art a,
-.div-in-art small {
+.div-in-art *{
   text-align: start;
 }
 
