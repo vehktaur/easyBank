@@ -218,6 +218,11 @@ footer {
   width: 100%;
 }
 
+
+.text-muted{
+  font-size: 0.85rem;
+}
+
 @media screen and (min-width: 550px) and (max-width: 768px) {
   .lil-padding {
     padding-left: 13% !important;
